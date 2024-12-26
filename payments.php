@@ -45,7 +45,7 @@ $result = $conn->query($sql);
         ?>
     </table>
     <div class="button-container">
-        <a href="userdashboard.php"><button>Back to Home</button></a>
+        <a href="admindashboard.php"><button>Back to Home</button></a>
     </div>
 
 </body>

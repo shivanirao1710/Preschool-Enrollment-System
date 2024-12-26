@@ -34,7 +34,7 @@
         <a href="view.php"><button>View Enrollments</button></a>
         <a href="teachers.php"><button>View Teachers</button></a>
         <a href="courses.php"><button>View Courses</button></a>
-        <a href="payments.php"><button>View Payments</button></a>
+        
        
     </div>
     <div class="button-container">
