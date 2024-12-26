@@ -89,9 +89,11 @@ if ($result->num_rows == 0) {
 </head>
 <body>
     <h1>Admin Dashboard</h1>
-    <br><br>
+    <br>
+    <div class="button-container">
     <a href="dashboard.php"><button>View Dashboard</button></a>
     <a href="payments.php"><button>View Payments</button></a>
+    </div>
     <br>
     <h2>All Students Enrollment Details</h2>
 
