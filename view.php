@@ -10,7 +10,7 @@ $sql = "
         FROM students s
         JOIN enrollment e ON s.student_id = e.student_id
         JOIN courses c ON e.course_id = c.course_id
-        JOIN teachers t ON c.course_name = t.subject
+        JOIN teachers t ON c.course_id = t.teacher_id
 ";
 
 $result = $conn->query($sql);
