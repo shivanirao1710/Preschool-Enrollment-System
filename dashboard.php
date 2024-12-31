@@ -95,7 +95,9 @@ button:hover {
     </style>
     <title>Dashboard - Preschool Enrollment System</title>
 </head>
-<body>
+<body style="background-image: url('https://t4.ftcdn.net/jpg/08/41/96/79/360_F_841967994_lUqrI5qLP69QJbnsnvDeslzS63n7VZII.jpg'); 
+        background-size: cover; 
+        background-repeat: no-repeat; ">
 
     <h2>Preschool Enrollment Dashboard</h2>  <!-- Centering main title -->
 

@@ -15,7 +15,9 @@ $result = $conn->query($sql);
     <title>Payments List</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body style="background-image: url('https://media.gettyimages.com/id/1503728267/video/3d-animation-money-dollar-sign-rotating-loop-able-animation-on-office-background.jpg?s=640x640&k=20&c=UPOTuXeLvvKDVpQCVu_VsQuwldg9TNTt2TxIkmV2fuE='); 
+        background-size: cover; 
+        background-repeat: no-repeat; ">
 
     <h2>Payments</h2>
 
