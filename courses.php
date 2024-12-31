@@ -13,7 +13,9 @@ $result = $conn->query($sql);
     <title>Courses List</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body style="background-image: url('https://img.freepik.com/premium-photo/background-preschool-kindergarten-art-classes-kids-educational-toys-school-supplies-draw-make-diy-crafts-flat-lay-top-view-art-child-frame-with-empty-paper-mock-up-text_494619-5031.jpg'); 
+        background-size: cover; 
+        background-repeat: no-repeat; ">
 
     <h2>Courses</h2>
 

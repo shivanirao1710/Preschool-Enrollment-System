@@ -17,11 +17,13 @@ $result = $conn->query($sql);
     <title>Teachers List</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body style="background-image: url('https://media.istockphoto.com/id/916390018/vector/group-of-preschool-kids-and-teacher-sitting-on-the-floor-teacher-explaining-alphabet-to.jpg?s=612x612&w=0&k=20&c=Yz8xGorMtP0lJAoxTR0jhERiyE-JFRLCtwHhDrqQCFs='); 
+        background-size: cover; 
+        background-repeat: no-repeat; ">
 
     <h2>Teachers</h2>
 
-    <table border="1" cellpadding="10" cellspacing="0" style="width: 80%; margin: 20px auto; border-collapse: collapse;">
+    <table >
         <tr>
             <th>Teacher ID</th>
             <th>First Name</th>

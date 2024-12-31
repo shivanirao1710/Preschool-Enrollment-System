@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preschool Enrollment System</title>
+    <style>
+        
+    </style>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body style="background-image: url('https://img.lovepik.com/background/20211029/medium/lovepik-small-fresh-kindergarten-enrollment-education-and-background-image_605661298.jpg'); 
+        background-size: cover; 
+        background-repeat: no-repeat; ">
     <header>
         <h1>Preschool Enrollment System</h1>
     </header>
