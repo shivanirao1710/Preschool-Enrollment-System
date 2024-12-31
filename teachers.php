@@ -17,7 +17,7 @@ $result = $conn->query($sql);
     <title>Teachers List</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body style="background-image: url('https://media.istockphoto.com/id/916390018/vector/group-of-preschool-kids-and-teacher-sitting-on-the-floor-teacher-explaining-alphabet-to.jpg?s=612x612&w=0&k=20&c=Yz8xGorMtP0lJAoxTR0jhERiyE-JFRLCtwHhDrqQCFs='); 
+<body style="background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-teachers-day-poster-background-blackboard-teacher-picture-image_923371.jpg'); 
         background-size: cover; 
         background-repeat: no-repeat; ">
 
