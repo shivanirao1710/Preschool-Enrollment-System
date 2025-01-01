@@ -96,6 +96,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $errors[] = "Date of birth cannot be empty.";
     }
 
+    // Validate Date of Birth (Age between 2 and 3 years)
+    if (!empty($dob)) {
+        // Calculate age
+        $dob_date = new DateTime($dob);
+        $current_date = new DateTime();
+        $age = $dob_date->diff($current_date)->y; // Get the difference in years
+
+        // Check if the age is between 2 and 3 years (inclusive)
+        if ($age < 2 || $age > 3) {
+            $errors[] = "The child's age must be between 2 and 3 years old.";
+        }
+    }
+
     if (empty($parent_name)) {
         $errors[] = "Parent's name cannot be empty.";
     }
