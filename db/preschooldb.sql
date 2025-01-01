@@ -38,8 +38,8 @@ CREATE TABLE enrollment (
     student_id INT NOT NULL,
     course_id INT NOT NULL,
     enrollment_date DATE NOT NULL,
-    FOREIGN KEY (student_id) REFERENCES students(student_id),
-    FOREIGN KEY (course_id) REFERENCES courses(course_id)
+    FOREIGN KEY (student_id) REFERENCES students(student_id) on delete cascade,
+    FOREIGN KEY (course_id) REFERENCES courses(course_id) on delete cascade
 );
 
 -- Payments Table (Tracking payments for student enrollment)
@@ -48,7 +48,7 @@ CREATE TABLE payments (
     student_id INT NOT NULL,
     payment_date DATE NOT NULL,
     amount DECIMAL(10, 2) NOT NULL,
-    FOREIGN KEY (student_id) REFERENCES students(student_id)
+    FOREIGN KEY (student_id) REFERENCES students(student_id) on delete cascade
 );
 CREATE TABLE users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
